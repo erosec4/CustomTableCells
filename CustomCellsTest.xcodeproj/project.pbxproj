@@ -14,6 +14,8 @@
 		953CC43126ADD8B3008A0732 /* CustomCellsTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 953CC42F26ADD8B3008A0732 /* CustomCellsTest.xcdatamodeld */; };
 		953CC43326ADD8BD008A0732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953CC43226ADD8BD008A0732 /* Assets.xcassets */; };
 		953CC43626ADD8BD008A0732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953CC43426ADD8BD008A0732 /* LaunchScreen.storyboard */; };
+		953CC43F26ADDE52008A0732 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CC43D26ADDE52008A0732 /* CustomTableViewCell.swift */; };
+		953CC44026ADDE52008A0732 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 953CC43E26ADDE52008A0732 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		953CC43226ADD8BD008A0732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		953CC43526ADD8BD008A0732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		953CC43726ADD8BD008A0732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953CC43D26ADDE52008A0732 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		953CC43E26ADDE52008A0732 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				953CC42626ADD8B3008A0732 /* AppDelegate.swift */,
 				953CC42826ADD8B3008A0732 /* SceneDelegate.swift */,
 				953CC42A26ADD8B3008A0732 /* ViewController.swift */,
+				953CC43D26ADDE52008A0732 /* CustomTableViewCell.swift */,
+				953CC43E26ADDE52008A0732 /* CustomTableViewCell.xib */,
 				953CC42C26ADD8B3008A0732 /* Main.storyboard */,
 				953CC43226ADD8BD008A0732 /* Assets.xcassets */,
 				953CC43426ADD8BD008A0732 /* LaunchScreen.storyboard */,
@@ -129,6 +135,7 @@
 			files = (
 				953CC43626ADD8BD008A0732 /* LaunchScreen.storyboard in Resources */,
 				953CC43326ADD8BD008A0732 /* Assets.xcassets in Resources */,
+				953CC44026ADDE52008A0732 /* CustomTableViewCell.xib in Resources */,
 				953CC42E26ADD8B3008A0732 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				953CC42B26ADD8B3008A0732 /* ViewController.swift in Sources */,
+				953CC43F26ADDE52008A0732 /* CustomTableViewCell.swift in Sources */,
 				953CC42726ADD8B3008A0732 /* AppDelegate.swift in Sources */,
 				953CC43126ADD8B3008A0732 /* CustomCellsTest.xcdatamodeld in Sources */,
 				953CC42926ADD8B3008A0732 /* SceneDelegate.swift in Sources */,
